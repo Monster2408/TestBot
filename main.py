@@ -30,7 +30,6 @@ class MyBot(commands.Bot):
         try:
             print('-----')
             print(self.user.name)
-            print(self.user.id)
             print(f'{self.user.name}のバージョンはv{Var.BOT_VERSION}')
             print(f'{Var.BOT_MODULE}のバージョンはv{discord.__version__}')
             print('-----')
